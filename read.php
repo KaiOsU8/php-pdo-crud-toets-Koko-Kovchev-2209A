@@ -8,7 +8,8 @@ try {
     echo " er is een verbinding met de database";
 } catch (PDOException $e) {
     echo "Er is geen verbinding met de database.<br>
-        Neem contact op met de administrator<br>";
+        Neem contact op met de administrator<br>
+        of probeer opnieuw.<br>";
     echo "systeemmelding: " . $e->getMessage();
 }
 

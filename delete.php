@@ -25,7 +25,7 @@ if ($sql) {
     echo "het record is verwijderd";
     header('Refresh:1.5; read.php');
 } else {
-    echo " het bracket is niet verwijderd";
+    echo " het bracket is niet verwijderd | probeer opnieuw!";
 }
 
 $statement = $pdo->prepare($sql);

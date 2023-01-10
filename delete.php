@@ -22,7 +22,7 @@ $sql = "DELETE FROM DureAuto
         WHERE Id = :Id;";
 
 if ($sql) {
-    echo "het record is verwijderd";
+    echo "het record is verwijderd!";
     header('Refresh:1.5; read.php');
 } else {
     echo " het bracket is niet verwijderd | probeer opnieuw!";
